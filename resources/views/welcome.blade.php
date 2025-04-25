@@ -69,7 +69,7 @@
         </div>
         <div class="flex items-center space-x-4">
             <a href="#" class="btn-outline px-4 py-2 rounded-full text-sm font-medium">Sign In</a>
-            <a href="#" class="btn-primary px-4 py-2 rounded-full text-sm font-medium">Sign Up</a>
+            <a href="{{ route('signup') }}" class="btn-primary px-4 py-2 rounded-full text-sm font-medium">Sign Up</a>
         </div>
     </nav>
 
